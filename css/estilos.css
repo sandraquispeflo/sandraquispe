@@ -1,0 +1,400 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00AEEF;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    text-transform: uppercase; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700; 
+    color: beige;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #e7e709; 
+    color: #000; 
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #fcfcfc; 
+    font-family: 'Oswald', sans-serif; /* Aplica la nueva fuente */
+    font-size: 40px; /* Tamaño de la fuente */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Espacio entre letras */
+    margin-bottom: 20px; /* Margen inferior para separar del siguiente elemento */
+    text-align: center; /* Centra el texto */
+    margin-top: 300px;
+
+}
+
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color:#14a2da;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contenidouno h2{
+    
+    margin-bottom: 15px;
+    
+}
+
+p {
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; /* Aplica la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    line-height: 1.8; /* Interlineado para mejor legibilidad */
+    letter-spacing: 0.5px; /* Espacio entre letras */
+    margin-bottom: 20px; /* Añade espacio entre párrafos y otros elementos */
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #ffffff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color:  #e7e709;
+    color: #000000;
+    padding: 17px 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color:#ffffff;
+    font-size: 40px; /* Tamaño de la fuente */
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 24px;
+    margin-right:  25px;
+    margin-top: 20px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3388e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    margin-bottom: 25px;
+
+  }
+
+  .galeria p {
+    color: #535656;
+    font-family: 'Lato', sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    letter-spacing: 1px; 
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+
+  .contenidotres {
+    max-width: 1200px; /* Máximo ancho del contenedor principal */
+    height: auto; /* Ajusta la altura de acuerdo al contenido */
+    margin: 0 auto; /* Centrado horizontal */
+    display: flex;
+    align-items: flex-start; /* Alinea al inicio */
+    justify-content: space-between; /* Espacio entre columnas */
+    gap: 20px; /* Añade espacio entre las columnas */
+    padding: 20px;
+  }
+
+  .contenidotres .columna {
+    flex: 1; /* Todas las columnas tomarán el mismo ancho disponible */
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Color de fondo */
+    border-radius: 15px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde alrededor de cada columna */
+    margin-bottom: 20px; /* Espacio inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para realce */
+  }
+
+  .contenidotres .columna img {
+    width: 100%; /* Tamaño máximo de la imagen adaptado al contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
+    padding: 5px;
+    border-radius: 10px; /* Bordes redondeados de las imágenes */
+    margin-bottom: 15px; /* Espacio inferior entre imagen y contenido */
+    
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:  #00AEEF;
+    color: #fff;
+    text-decoration: none;
+  
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #e7e709;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #14a2da;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  footer h3 {
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Cambia el tipo de fuente */
+    font-size: 24px; /* Tamaño de la fuente */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase;
+    margin-bottom: 15px; /* Espacio inferior */
+  }
+  
+  footer p {
+    font-family: 'Open Sans', sans-serif; /* Fuente diferente para los párrafos */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #ffffff; /* Color más claro para los párrafos */
+    line-height: 1.5; /* Altura de línea para mejor legibilidad */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-align: center; 
+
+}
+
+  .social-icons1 {
+    display: flex;
+    
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+footer h4 {
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente */
+    font-size: 18px; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin-top: 10px; /* Margen superior */
+    text-align: center; 
+
+}
+  
